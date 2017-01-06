@@ -1,0 +1,22 @@
+{
+  "name": "holidaysextra-api",
+  "version": "0.0.1",
+  "description": "API to persit User data",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fmlharrison/restful-api.git"
+  },
+  "author": "fmlharrison",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/fmlharrison/restful-api/issues"
+  },
+  "homepage": "https://github.com/fmlharrison/restful-api#readme",
+  "dependencies": {
+    "express": "^4.14.0"
+  }
+}
