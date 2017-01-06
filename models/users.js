@@ -12,4 +12,4 @@ var userSchema = new mongoose.Schema({
 });
 
 // Return model
-module.exports = restful.model('Products', userSchema);
+module.exports = restful.model('User', userSchema);
