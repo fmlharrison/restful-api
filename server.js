@@ -11,9 +11,11 @@ var app = express();
 app.use(bodyParser.urlencoded({ extended: true}));
 app.use(bodyParser.json());
 
+app.get('/', function(req, res) {
+  res.sendFile(path.join(__dirname + '/index.html'));
+});
 // Routes
 app.use('/api', require('./routes/api'));
 
 // Start Server
 app.listen(3000);
-console.log('API is running on port 3000!');
