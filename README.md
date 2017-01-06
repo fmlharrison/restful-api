@@ -1,5 +1,7 @@
 # Holidays Extra - Restful API Tech Test
 
+*Please also take a look at my other Holidays Express tech test using the Flickr API [here](https://random-flickr-feed.herokuapp.com/index.html) and checkout the GitHub repo [here](https://github.com/fmlharrison/holidaysextra_tech_test)*
+
 ##The Test
 We would expect this task to take a few hours, however there is no strict time limit and you won't be judged on how long it took you to complete. Please find a few pointers below:  
 
@@ -42,4 +44,4 @@ Go to http://localhost:3000/api/users
 
 ##Consuming the API
 The API can be consumed using the Google Chrome extension Postman.  
-While inside Postman you can send GET, POST, PUT and DELETE requests to the API.
+While inside Postman, use the localhost url and you can send GET, POST, PUT and DELETE requests to the API.
