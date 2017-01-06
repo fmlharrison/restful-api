@@ -1,6 +1,6 @@
 // Dependencies
-var require = require('node-restful');
-var mongoose = restful.mongoose; //mongo is extending node-restful
+var restful = require('node-restful');
+var mongoose = restful.mongoose;
 
 // Schema
 var userSchema = new mongoose.Schema({
@@ -12,4 +12,4 @@ var userSchema = new mongoose.Schema({
 });
 
 // Return model
-module.exports = restful.model('Products', productSchema);
+module.exports = restful.model('Products', userSchema);
